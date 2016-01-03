@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+	<weapon name="baselard">
+		<title>Baselard</title>
+		<attack>8</attack>
+		<max_attack>26</max_attack>
+		<endurance>20</endurance>
+		<speed>60</speed>
+		<magic>4</magic>
+		<max_magic>25</max_magic>
+		<fire>0</fire>
+		<ice>0</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>0</beast>
+		<sky>10</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<upgrade>sax</upgrade>
+		<upgrade>shamshir</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+
+	<weapon name="crysknife">
+		<title>Crysknife</title>
+		<attack>12</attack>
+		<endurance>25</endurance>
+		<speed>70</speed>
+		<magic>8</magic>
+		<fire>0</fire>
+		<ice>0</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>8</holy>
+		<dragon>0</dragon>
+		<undead>5</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>5</beast>
+		<sky>5</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Moon Sea</procure>
+		<procure>Gallery of Time</procure>
+		<procure>Demon Shaft</procure>
+		<upgrade>small_sword</upgrade>
+		<upgrade>sand_breaker</upgrade>
+		<slot>3</slot>
+	</weapon>
+
+
+	<weapon name="gladius">
+		<title>Gladius</title>
+		<attack>10</attack>
+		<endurance>32</endurance>
+		<speed>60</speed>
+		<magic>6</magic>
+		<fire>0</fire>
+		<ice>0</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>5</holy>
+		<dragon>0</dragon>
+		<undead>15</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>5</beast>
+		<sky>5</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Sun and Moon Temple</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>small_sword</upgrade>
+		<upgrade>chopper</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+
+	<weapon name="kitchen_knife">
+		<title>Kitchen Knife</title>
+		<attack>5</attack>
+		<endurance>22</endurance>
+		<speed>80</speed>
+		<magic>0</magic>
+		<fire>0</fire>
+		<ice>8</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>33</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>0</beast>
+		<sky>0</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>chopper</upgrade>
+		<upgrade>sax</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+<!--	TIER TWO	-->
+
+	<weapon name="bone_rapier">
+		<title>Bone Rapier</title>
+		<attack>15</attack>
+		<endurance>20</endurance>
+		<speed>80</speed>
+		<magic>30</magic>
+		<fire>0</fire>
+		<ice>5</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>0</beast>
+		<sky>0</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>evilcise</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="buster_sword">
+		<title>Buster Sword</title>
+		<attack>24</attack>
+		<endurance>40</endurance>
+		<speed>50</speed>
+		<magic>0</magic>
+		<fire>0</fire>
+		<ice>0</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>10</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>10</beast>
+		<sky>0</sky>
+		<metal>10</metal>
+		<mimic>0</mimic>
+		<mage>10</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>claymore</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="chopper">
+		<title>Chopper</title>
+		<attack>30</attack>
+		<endurance>40</endurance>
+		<speed>50</speed>
+		<magic>15</magic>
+		<fire>0</fire>
+		<ice>0</ice>
+		<thunder>10</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>10</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>10</beast>
+		<sky>0</sky>
+		<metal>10</metal>
+		<mimic>0</mimic>
+		<mage>10</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>choora</upgrade>
+		<upgrade>dusack</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="sand_breaker">
+		<title>Sand Breaker</title>
+		<attack>28</attack>
+		<endurance>20</endurance>
+		<speed>70</speed>
+		<magic>14</magic>
+		<fire>0</fire>
+		<ice>10</ice>
+		<thunder>0</thunder>
+		<wind>10</wind>
+		<holy>12</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>8</beast>
+		<sky>0</sky>
+		<metal>10</metal>
+		<mimic>0</mimic>
+		<mage>8</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>antique_sword</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="sax">
+		<title>Sax</title>
+		<attack>26</attack>
+		<endurance>40</endurance>
+		<speed>50</speed>
+		<magic>15</magic>
+		<fire>0</fire>
+		<ice>10</ice>
+		<thunder>0</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>10</plant>
+		<beast>0</beast>
+		<sky>0</sky>
+		<metal>0</metal>
+		<mimic>10</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>dusack</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="serpent_sword">
+		<title>Serpent Sword</title>
+		<attack>22</attack>
+		<endurance>48</endurance>
+		<speed>60</speed>
+		<magic>8</magic>
+		<fire>0</fire>
+		<ice>10</ice>
+		<thunder>14</thunder>
+		<wind>12</wind>
+		<holy>0</holy>
+		<dragon>21</dragon>
+		<undead>0</undead>
+		<marine>12</marine>
+		<rock>0</rock>
+		<plant>23</plant>
+		<beast>24</beast>
+		<sky>23</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>tsukikage</upgrade>
+		<upgrade>evilcise</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="shamshir">
+		<title>Samshir</title>
+		<attack>20</attack>
+		<endurance>30</endurance>
+		<speed>70</speed>
+		<magic>6</magic>
+		<fire>0</fire>
+		<ice>0</ice>
+		<thunder>8</thunder>
+		<wind>0</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>0</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>0</beast>
+		<sky>10</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>dusack</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<weapon name="small_sword">
+		<title>Small Sword</title>
+		<attack>20</attack>
+		<endurance>33</endurance>
+		<speed>80</speed>
+		<magic>36</magic>
+		<fire>0</fire>
+		<ice>8</ice>
+		<thunder>10</thunder>
+		<wind>10</wind>
+		<holy>0</holy>
+		<dragon>0</dragon>
+		<undead>0</undead>
+		<marine>33</marine>
+		<rock>0</rock>
+		<plant>0</plant>
+		<beast>0</beast>
+		<sky>0</sky>
+		<metal>0</metal>
+		<mimic>0</mimic>
+		<mage>0</mage>
+		<procure>Divine Beast Cave</procure>
+		<procure>Wise Owl Forest</procure>
+		<procure>Shipwreck</procure>
+		<procure>Bought from Jack's Store in Queens</procure>
+		<upgrade>tsukikage</upgrade>
+		<slot>2</slot>
+	</weapon>
+
+	<!--	TIER THREE	-->
+
+		
+
+
+
+
+</weapons>

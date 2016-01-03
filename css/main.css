@@ -1,0 +1,121 @@
+body {
+  width: 70%;     /* specify a width! */
+  margin: 0 auto; /* center */
+  background: #281D2A;
+}
+
+.weapon_overview img{
+	width: 150px;
+	height: 100px;
+	margin: 1px;
+}
+
+.weapon_list img:hover {
+	background: #1F1221; /* For browsers that do not support gradients */
+  	background: -webkit-radial-gradient(red, yellow, green); /* Safari 5.1 to 6.0 */
+  	background: -o-radial-gradient(red, yellow, green); /* For Opera 11.6 to 12.0 */
+  	background: -moz-radial-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+  	background: radial-gradient(#1F1221 40%,  #281D2A 60%);/*rgba(40,29,42,0));  Standard syntax */
+}
+
+.weapon_overview button img {
+	width: 45px;
+	height: 30px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+button {
+	width: 200px;
+	display: block;
+	margin: 10px;
+	padding: 3px;
+	background: #281D2A;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: #281D2A;
+	color:#B1B4B5;
+	outline: none;
+}
+
+button:hover {
+	border-style: inset;
+}
+
+.active_build_up {
+	border-style: inset;
+	box-shadow: 0 1px 10px black;
+}
+
+.more_info_table {
+	padding: 10px;
+}
+
+.more_info_table h3 {
+	text-align: center;
+	margin:5px;
+}
+
+.missing_stats td {
+	color:red;
+}
+
+.active_stats {
+	background: #1F1221;
+	color: #B1B4B5;
+	border-radius: 10px;
+	display: none;
+}
+
+ul.more_info_sub li {
+	display: block;
+}
+
+.weapon_overview .active_stats p {
+	text-align: left;
+	color:#000;
+	display: inline-block;
+}
+
+
+.stats tr td:nth-child(1) {
+	width: 20px;
+}
+
+.stats tr td:nth-child(2) {
+	width: 20px;
+}
+
+.stats tr td:nth-child(3) {
+	width: 150px;
+}
+
+
+.phys_stat, .attune_stat{
+	width: 30%;
+}
+
+.monster_stat {
+	width: 20%;
+}
+
+.hidden {
+	display: none;
+}
+
+.weapon_overview p {
+	text-align: center;
+	font-size: 20px;
+	color: #B1B4B5;
+}
+
+.weapon_overview li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+* {
+	margin: 0;
+}

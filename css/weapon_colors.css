@@ -1,0 +1,64 @@
+.weapon_overview .active_stats div {
+	height: 5px;
+  background: #123987;
+}
+
+#attack_stat div {
+	background: #987123;
+}
+
+#endurance_stat div {
+	background: #656565;
+}
+
+#speed_stat div {
+	background: #121212;
+}
+
+#magic_stat div {
+	background: #090909;
+}
+
+
+
+#fire_stat div {
+	background: red;
+  	background: -webkit-linear-gradient(left, red , yellow);
+  	background: -o-linear-gradient(right, red, yellow); 
+  	background: -moz-linear-gradient(right, red, yellow);
+  	background: linear-gradient(to right, #F54C18 , #F57418); 
+}
+
+#ice_stat div {
+	background: blue;
+  	background: -webkit-linear-gradient(left, red , yellow);
+  	background: -o-linear-gradient(right, red, yellow); 
+  	background: -moz-linear-gradient(right, red, yellow);
+  	background: linear-gradient(to right, #161EF7 , #168EF7); 
+}
+
+#thunder_stat div {
+	background: yellow;
+  	background: -webkit-linear-gradient(left, red , yellow);
+  	background: -o-linear-gradient(right, red, yellow); 
+  	background: -moz-linear-gradient(right, red, yellow);
+  	background: linear-gradient(to right, #FFEF0D , #F7FF0D); 
+}
+
+
+#wind_stat div {
+	background: green;
+  	background: -webkit-linear-gradient(left, red , yellow);
+  	background: -o-linear-gradient(right, red, yellow); 
+  	background: -moz-linear-gradient(right, red, yellow);
+  	background: linear-gradient(to right, #20D456 , #0EC745); 
+}
+
+#holy_stat div {
+	background: purple;
+  	background: -webkit-linear-gradient(left, red , yellow);
+  	background: -o-linear-gradient(right, red, yellow); 
+  	background: -moz-linear-gradient(right, red, yellow);
+  	background: linear-gradient(to right, #F071F5 , #F200FA); 
+}
+

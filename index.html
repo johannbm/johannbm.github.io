@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/weapon_colors.css" />
+    <title>Demo</title>
+</head>
+<body>
+
+
+    <div class="weapon_overview">
+        <ul class="weapon_list">
+            <li id="baselard"><p>Baselard</p><img src="img/toan/baselard.png"></li
+            ><li id="crysknife"><p>Crysknife</p><img src="img/toan/crys_knife.png"></li
+            ><li id="gladius"><p>Gladius</p><img src="img/toan/gladius.png"></li
+            ><li id="kitchen_knife"><p>Kitchen Knife</p><img src="img/toan/kitchen_knife.png"></li
+            ><li id="bone_rapier"><p>Bone Rapier</p><img src="img/toan/bone_rapier.png"></li
+            ><li id="buster_sword"><p>Buster Sword</p><img src="img/toan/sax.png"></li
+            ><li id="chopper"><p>Chopper</p><img src="img/toan/chopper.png"></li
+            ><li id="sand_breaker"><p>Sand Breaker</p><img src="img/toan/sand_breaker.png"></li
+            ><li id="sax"><p>Sax</p><img src="img/toan/sax.png"></li
+            ><li id="serpent_sword"><p>Serpent Sword</p><img src="img/toan/serpent_sword.png"></li
+            ><li id="shamshir"><p>Shamshir</p><img src="img/toan/shamshir.png"></li
+            ><li id="small_sword"><p>Small Sword</p><img src="img/toan/small_sword.png"></li
+            ><li id="antique_sword"><p>Antique Sword</p><img src="img/toan/antique_sword.png"></li
+            ><li id="choora"><p>Choora</p><img src="img/toan/choora.png"></li
+            ><li id="claymore"><p>Claymore</p><img src="img/toan/claymore.png"></li
+            ><li id="dusack"><p>Dusack</p><img src="img/toan/dusack.png"></li
+            ><li id="evilcise"><p>Evilcise</p><img src="img/toan/evilcise.png"></li
+            ><li id="macho_sword"><p>Macho Sword</p><img src="img/toan/macho_sword.png"></li
+            ><li id="tsukikage"><p>Tsukikage</p><img src="img/toan/tsukikage.png"></li
+            ><li id="wise_owl_sword"><p>Wise Owl Sword</p><img src="img/toan/wise_owl_sword.png"></li
+            ><li id="7_branch_sword"><p>7 Branch Sword</p><img src="img/toan/7_branch_sword.png"></li
+            ><li id="aga_sword"><p>Aga Sword</p><img src="img/toan/aga_sword.png"></li
+            ><li id="brave_ark"><p>Brave Ark</p><img src="img/toan/brave_ark.png"></li
+            ><li id="cross_hinder"><p>Cross Hinder</p><img src="img/toan/cross_hinder.png"></li
+            ><li id="drain_seeker"><p>Drain Seeker</p><img src="img/toan/drain_seeker.png"></li
+            ><li id="heaven_cloud"><p>Heaven Cloud</p><img src="img/toan/heaven_cloud.png"></li
+            ><li id="lamb_sword"><p>Lamb Sword</p><img src="img/toan/lamb_sword.png"></li
+            ><li id="maneater"><p>Maneater</p><img src="img/toan/maneater.png"></li
+            ><li id="mardan_eins"><p>Mardan Eins</p><img src="img/toan/mardan_eins.png"></li
+            ><li id="sun_sword"><p>Sun Sword</p><img src="img/toan/sun_sword.png"></li
+            ><li id="atlamilla_sword"><p>Atlamilla Sword</p><img src="img/toan/atlamilla_sword.png"></li
+            ><li id="big_bang"><p>Big Bang</p><img src="img/toan/big_bang.png"></li
+            ><li id="dark_cloud"><p>Dark Cloud</p><img src="img/toan/dark_cloud.png"></li
+            ><li id="mardan_twei"><p>Mardan Twei</p><img src="img/toan/mardan_twei.png"></li
+            ><li id="7th_heaven"><p>7th Heaven</p><img src="img/toan/7th_heaven.png"></li
+            ><li id="sword_of_zeus"><p>Sword of Zeus</p><img src="img/toan/sword_of_zeus.png"></li
+            ><li id="arise_mardan"><p>Arise Mardan</p><img src="img/toan/arise_mardan.png"></li
+            ><li id="chronicle_2"><p>Chronicle 2</p><img src="img/toan/chronicle_2.png"></li
+            ><li id="chronicle_sword"><p>Chronicle Sword</p><img src="img/toan/chronicle_sword.png"></li>
+        </ul>
+    </div>
+
+
+
+    <template id="weapon_stats_template">
+        <div class="active_stats">
+            
+            <table class="table_stats">
+                <tr>
+                    <td class="phys_stat ">
+                        <table class="stats">
+                            <tr id="attack_stat">
+                                <td>At</td>
+                                <td>101</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="endurance_stat">
+                                <td>Ed</td>
+                                <td>50</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="speed_stat">
+                                <td>Sp</td>
+                                <td>60</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="magic_stat">
+                                <td>Mp</td>
+                                <td>40</td>
+                                <td><div></div></td> 
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="attune_stat">
+                        <table class="stats">
+                            <tr id="fire_stat">
+                                <td>Fi</td>
+                                <td>60</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="ice_stat">
+                                <td>Ic</td>
+                                <td>50</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="thunder_stat">
+                                <td>Th</td>
+                                <td>60</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="wind_stat">
+                                <td>Wi</td>
+                                <td>40</td>
+                                <td><div></div></td> 
+                            </tr>
+                            <tr id="holy_stat">
+                                <td>Ho</td>
+                                <td>30</td>
+                                <td><div></div></td> 
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="monster_stat">
+                        <table class="stats">
+                            <tr id="dr">
+                                <td>Dr</td>
+                                <td>60</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="un">
+                                <td>Un</td>
+                                <td>50</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="ma">
+                                <td>Ma</td>
+                                <td>60</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="ro">
+                                <td>Rk</td>
+                                <td>40</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="pt">
+                                <td>Pt</td>
+                                <td>30</td>
+                                <td><div></div></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="monster_stat">
+                        <table class="stats">
+                            <tr id="be">
+                                <td>Bt</td>
+                                <td>50</td>
+                                <td><div></div></td>
+                            
+                            </tr>
+                            <tr id="sk">
+                                <td>Sy</td>
+                                <td>60</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="me">
+                                <td>Ml</td>
+                                <td>50</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="mi">
+                                <td>Mc</td>
+                                <td>60</td>
+                                <td><div></div></td>
+                            </tr>
+                            <tr id="mg">
+                                <td>Mg</td>
+                                <td>60</td>
+                                <td><div></div></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+            </table>
+            <ul class="more_info_table">
+                <li>
+                    <ul class="more_info_sub" id="acquisition">
+                        <h3>Acquisition</h3>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="more_info_sub" id="build_up">
+                        <h3>Build Up</h3>
+                        <li>7th heaven</li>
+                        <li>Zeus' Sword</li>
+                        <li>Zeus' Sword</li>
+
+                    </ul>
+                </li>
+                <li>
+                    <ul class="more_info_sub" id="suggested_gemstones">
+                        <h3>Suggested Gemstones</h3>
+                    </ul>
+                </li>
+            </ul>
+            
+        </div>
+    </template>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/weapon_class.js"></script>
+
+</body>
+</html>
