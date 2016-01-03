@@ -11,7 +11,7 @@ var weapons = {};
 function create_weapons() {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8000/weapon_data/test.xml",
+        url: "http://johannbm.github.io/weapon_data/test.xml",
         dataType: "xml",
         success: function(xml) {
             $(xml).find('weapon').each(function() {
