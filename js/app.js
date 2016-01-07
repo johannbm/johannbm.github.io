@@ -22,7 +22,7 @@ var weapons = {};
 
 $( document ).ready(function() {
 
-    create_weapons("http://localhost:8000/weapon_data/test.xml");
+    create_weapons("http://johannbm.github.io/weapon_data/test.xml");
 
     $( "li > img" ).click(weapon_selected_click_handler);
 
