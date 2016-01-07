@@ -1065,31 +1065,28 @@
 		<slot>2</slot>
 	</weapon>
 
-	<weapon name="Chronicle 2">
+	<weapon name="chronicle_2">
 		<title>Chronicle 2</title>
-		<attack>0</attack>
-		<endurance>0</endurance>
-		<speed>0</speed>
-		<magic>0</magic>
-		<fire>0</fire>
-		<ice>0</ice>
-		<thunder>0</thunder>
-		<wind>0</wind>
-		<holy>0</holy>
-		<dragon>0</dragon>
-		<undead>0</undead>
-		<marine>0</marine>
-		<rock>0</rock>
-		<plant>0</plant>
-		<beast>0</beast>
-		<sky>0</sky>
-		<metal>0</metal>
-		<mimic>0</mimic>
-		<mage>0</mage>
-		<procure>Divine Beast Cave</procure>
-		<procure>Wise Owl Forest</procure>
-		<procure>Shipwreck</procure>
-		<procure>Bought from Jack's Store in Queens</procure>
+		<attack>199</attack>
+		<endurance>99</endurance>
+		<speed>89</speed>
+		<magic>110</magic>
+		<fire>99</fire>
+		<ice>50</ice>
+		<thunder>50</thunder>
+		<wind>50</wind>
+		<holy>50</holy>
+		<dragon>50</dragon>
+		<undead>50</undead>
+		<marine>50</marine>
+		<rock>50</rock>
+		<plant>50</plant>
+		<beast>50</beast>
+		<sky>50</sky>
+		<metal>50</metal>
+		<mimic>50</mimic>
+		<mage>50</mage>
+		<procure>Complete Demon Shaft</procure>
 		<slot>2</slot>
 	</weapon>
 

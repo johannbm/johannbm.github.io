@@ -41,7 +41,7 @@ Weapon.prototype.getAllItems = function(name, stats) {
 }
 
 Weapon.prototype.getStats = function() {
-	return [this.attack, this.endurance, this.speed, this.endurance,
+	return [this.attack, this.endurance, this.speed, this.magic,
 			this.fire, this.ice, this.thunder, this.wind, this.holy,
 			this.dragon, this.undead, this.marine, this.rock, this.plant,
 			this.beast, this.sky, this.metal, this.mimic, this.mage];
